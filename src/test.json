@@ -1,0 +1,179 @@
+{
+    "data": {
+        "id": "10118708172779",
+        "uuid": null,
+        "waybillNumber": "10118708172779",
+        "reference": "48515",
+        "trackingNumber": "",
+        "pickupNumber": "",
+        "forwarderReferenceNumber": "",
+        "issuingDate": "1398-12-20 21:05",
+        "lastChangeStateDate": "",
+        "deliveryDate": "1398-12-21 01:51",
+        "shipper": {
+            "clientId": null,
+            "nationalId": "2740115601",
+            "type": "REAL",
+            "name": " عطاءاله افتخاری (تیماپ)",
+            "city": "تهران",
+            "province": "استان تهران",
+            "country": "ایران",
+            "postalCode": null,
+            "phones": "66097063 66097063",
+            "address": "کیلومتر 4 اتوبان فتح-بین فتح 5 و 7،مجموعه انبارهای پناه",
+            "notes": ""
+        },
+        "consignee": {
+            "clientId": null,
+            "nationalId": "",
+            "type": "REAL",
+            "name": " علی شجایی منش",
+            "city": "تهران",
+            "province": "استان تهران",
+            "country": "ایران",
+            "postalCode": null,
+            "phones": " 09032204556",
+            "address": "رباط کریم شهرستان بهارستان شهر گلستان خیابان 24 متری شهید چمران کوچه حافظ 6 پلاک 408",
+            "notes": ""
+        },
+        "parcels": [
+            {
+                "partNumber": "99990000313474",
+                "length": 15,
+                "width": 30,
+                "height": 15,
+                "grossWeight": 5,
+                "content": "بهداشتی",
+                "packageType": "کارتن",
+                "declaredValue": 490000
+            }
+        ],
+        "totalPieces": 1,
+        "totalGrossWeight": 5,
+        "totalVolumetricWeight": 1.12,
+        "totalChargeableWeight": 5,
+        "paymentInfo": {
+            "shippingTotalAmount": 135000,
+            "shippingPaymentMethod": "CREDIT",
+            "shippingChargeParty": "پیشکرایه",
+            "shippingPaymentReferenceInfo": "",
+            "codAmount": 0,
+            "codPaymentMethod": null,
+            "codPaymentReferenceInfo": null
+        },
+        "shipmentCurrentState": "DELIVERED",
+        "trackingInfo": {
+            "totalPieces": 1,
+            "totalGrossWeight": 5,
+            "currentShipmentState": "",
+            "current": {
+                "localDate": "1398-12-21",
+                "localDateTime": "1398-12-21 13:54",
+                "count": 1,
+                "state": "DELIVERED",
+                "location": "نمایندگی تهران-لجستیک",
+                "partNumbers": [
+                    "99990000313474"
+                ],
+                "comment": ""
+            },
+            "history": [
+                {
+                    "localDate": "1398-12-20",
+                    "localDateTime": "1398-12-20 21:05",
+                    "count": 1,
+                    "state": "ISSUED",
+                    "location": "نمایندگی تهران-لجستیک",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "Shipment Action"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 05:21",
+                    "count": 1,
+                    "state": "IN_WAREHOUSE",
+                    "location": "تهران-نمایندگی سامان کیش",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "Fast Inscan"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 05:21",
+                    "count": 1,
+                    "state": "MANIFESTED",
+                    "location": "تهران-نمایندگی سامان کیش",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "Fast Outscan"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 05:26",
+                    "count": 1,
+                    "state": "IN_WAREHOUSE",
+                    "location": "نمایندگی تهران-لجستیک",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "Fast Inscan"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 05:27",
+                    "count": 1,
+                    "state": "MANIFESTED",
+                    "location": "نمایندگی تهران-لجستیک",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "Fast Outscan"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 08:22",
+                    "count": 1,
+                    "state": "OUT_FOR_DELIVERY",
+                    "location": "نمایندگی تهران-لجستیک",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": "courier_scan"
+                },
+                {
+                    "localDate": "1398-12-21",
+                    "localDateTime": "1398-12-21 13:54",
+                    "count": 1,
+                    "state": "DELIVERED",
+                    "location": "نمایندگی تهران-لجستیک",
+                    "partNumbers": [
+                        "99990000313474"
+                    ],
+                    "comment": ""
+                }
+            ]
+        },
+        "attachments": [
+            {
+                "type": "CONSIGNEE_SIGNATURE",
+                "mimeType": null,
+                "size": null,
+                "imageHeight": null,
+                "imageWidth": null,
+                "description": null
+            },
+            {
+                "type": "CONSIGNEE_RECEIPT",
+                "mimeType": null,
+                "size": null,
+                "imageHeight": null,
+                "imageWidth": null,
+                "description": null
+            }
+        ]
+    }
+}
